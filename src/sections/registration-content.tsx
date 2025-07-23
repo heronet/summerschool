@@ -1,4 +1,4 @@
-import { Calendar, ExternalLink, Mail, Settings } from "lucide-react";
+import { Calendar, Mail, Settings } from "lucide-react";
 
 export const RegistrationContent = () => (
   <div className="space-y-6">

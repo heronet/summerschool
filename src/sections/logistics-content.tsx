@@ -108,7 +108,7 @@ const LogisticsContent = () => (
           </h3>
           <p className="text-gray-700">
             If anyone faces difficulty finding a place to stay, feel free to
-            contact us. We'll be happy to assist you with proper guidance.
+            contact us. We&apos;ll be happy to assist you with proper guidance.
           </p>
         </div>
       </div>

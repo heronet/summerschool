@@ -6,7 +6,6 @@ import {
   Monitor,
   MapPin,
   Laptop,
-  Users,
   Star,
   BookOpen,
   Globe,
@@ -314,8 +313,8 @@ export default function ScheduleContent() {
               <p className="text-gray-700 mb-3">
                 Participants will give a group presentation based on their
                 understanding of the topics and tasks covered during the
-                mentor's hands-on sessions. This presentation will be held after
-                the conclusion of the Summer School program.
+                mentor&apos;s hands-on sessions. This presentation will be held
+                after the conclusion of the Summer School program.
               </p>
               <div className="bg-purple-50 p-3 rounded-md">
                 <p className="text-purple-800 font-medium text-sm">

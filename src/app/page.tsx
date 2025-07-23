@@ -7,9 +7,6 @@ import {
   Settings,
   Home,
   MapPin,
-  Mail,
-  ExternalLink,
-  Video,
 } from "lucide-react";
 import LogisticsContent from "@/sections/logistics-content";
 import RegistrationContent from "@/sections/registration-content";
