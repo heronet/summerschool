@@ -80,7 +80,7 @@ export default function CAMSUSTSummerSchool() {
         <div className="flex gap-8">
           {/* Desktop Sidebar */}
           <aside className="hidden lg:block w-64 flex-shrink-0">
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 sticky top-8">
+            <div className="bg-white rounded-lg shadow-sm border border-gray-200 sticky top-32">
               <div className="p-4 border-b border-gray-200">
                 <h2 className="font-semibold text-gray-800">Navigation</h2>
               </div>
