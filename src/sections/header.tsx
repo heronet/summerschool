@@ -2,7 +2,14 @@ import { Menu, Calendar, Video } from "lucide-react";
 
 export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
   return (
-    <header className="bg-gradient-to-r from-indigo-600 to-indigo-900 text-white shadow-lg sticky top-0">
+    <header
+      className="bg-indigo-900 text-white shadow-lg sticky top-0"
+      style={{
+        backgroundImage: "url('/images/header-bg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
