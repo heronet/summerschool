@@ -32,10 +32,13 @@ export default function OverviewContent() {
           Welcome to CAM-SUST Summer School on Astrophysics 2025
         </h2>
         <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-          A comprehensive two-week program designed for undergraduate students
-          and early-career researchers from Bangladesh, featuring advanced
-          training in modern astrophysical techniques through a unique hybrid
-          learning experience.
+          The CAM-SUST Summer School on Astrophysics 2025 is a two-week-long
+          program for undergraduate students and early-career researchers from
+          Bangladesh, organized by the Copernicus Astronomical Memorial of SUST
+          (CAM-SUST). The program is a hybrid summer school scheduled for
+          September 3–14, 2025, designed for motivated undergraduate students in
+          Physics, Astronomy, Engineering, and related fields from across
+          Bangladesh.
         </p>
       </div>
 

@@ -12,22 +12,11 @@ import {
   Presentation,
 } from "lucide-react";
 
-interface Session {
-  date: string;
-  time: string;
-  speaker: string;
-  title: string;
-  mode: "Online" | "Offline";
-  handsOn: boolean;
-  isSpecial?: boolean;
-  category?: string;
-}
-
 export default function ScheduleContent() {
-  const sessions: Session[] = [
+  const sessions = [
     {
-      date: "TBA",
-      time: "TBA",
+      date: "03.09.2025",
+      time: "6-9 PM (GMT+6)",
       speaker: "Dr. Tabassum Shahriar Tanvir",
       title: "Star formation",
       mode: "Online",
@@ -36,18 +25,11 @@ export default function ScheduleContent() {
     {
       date: "05.09.2025",
       time: "7-9 PM (GMT+6)",
-      speaker: "Dr. Tabassum Shahriar Tanvir",
-      title: "Star formation",
+      speaker: "Dr. Syeda Lammim Ahad",
+      title: "The Largest Structures in the Universe.",
       mode: "Online",
       handsOn: true,
-    },
-    {
-      date: "TBA",
-      time: "TBA",
-      speaker: "Dr. Syeda Lammim Ahad",
-      title: "The Largest Structures in the Universe",
-      mode: "Online",
-      handsOn: false,
+      handsOnTime: "TBA",
     },
     {
       date: "07.09.2025",
@@ -62,7 +44,7 @@ export default function ScheduleContent() {
       time: "TBA",
       speaker: "Dr. Syed Ashraf Uddin",
       title: "Supernova Cosmology",
-      mode: "Offline",
+      mode: "In-Person",
       handsOn: true,
     },
     {
@@ -70,7 +52,7 @@ export default function ScheduleContent() {
       time: "TBA",
       speaker: "K M Shariat Ullah",
       title: "Simulating the Early Universe using 21cmFAST",
-      mode: "Offline",
+      mode: "In-Person",
       handsOn: true,
     },
     {
@@ -78,7 +60,7 @@ export default function ScheduleContent() {
       time: "TBA",
       speaker: "Ahmad Al-Imtiaz",
       title: "NIRSpec (JWST) Data Reduction",
-      mode: "Offline",
+      mode: "In-Person",
       handsOn: true,
     },
     {
@@ -87,7 +69,7 @@ export default function ScheduleContent() {
       speaker: "Tanmoy Bhowmik",
       title:
         "Galaxy SED Fitting: From Photometric Data to Physical Parameter Modeling",
-      mode: "Offline",
+      mode: "In-Person",
       handsOn: true,
     },
     {
@@ -391,8 +373,9 @@ export default function ScheduleContent() {
             Week 1: Online Foundation
           </h3>
           <p className="text-gray-700 text-sm mb-3">
-            Comprehensive lecture series covering fundamental astrophysical
-            concepts and modern observational techniques.
+            The first week (September 3–7) will primarily consist of online
+            lecture sessions. Sessions will be led by expert astronomers and
+            researchers.
           </p>
           <div className="text-xs text-blue-700 bg-blue-100 px-2 py-1 rounded">
             September 1-7, 2025 • Virtual Sessions
@@ -405,8 +388,9 @@ export default function ScheduleContent() {
             Week 2: Hands-On Practice
           </h3>
           <p className="text-gray-700 text-sm mb-3">
-            Intensive practical sessions with real astronomical data, simulation
-            tools, and advanced analysis techniques.
+            The second week (September 11–14) will feature in-person,
+            lecture-based hands-on training sessions conducted by guest
+            astronomers and researchers.
           </p>
           <div className="text-xs text-green-700 bg-green-100 px-2 py-1 rounded">
             September 10-14, 2025 • SUST Campus, Sylhet
