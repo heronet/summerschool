@@ -30,9 +30,8 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
                 </span>
               </h1>
               <p className="text-purple-100 mt-1 text-xs sm:text-sm lg:text-base">
-                <span className="sm:hidden">Astrophysics Training</span>
                 <span className="hidden sm:inline">
-                  Advanced Training in Modern Astrophysical Techniques
+                  Shahjalal University of Science and Technology (SUST)
                 </span>
               </p>
             </div>
@@ -45,7 +44,9 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
             </div>
             <div className="flex items-center text-purple-100">
               <Video className="w-4 h-4 mr-2" />
-              <span className="text-sm lg:text-base">Hybrid Format</span>
+              <span className="text-sm lg:text-base">
+                Hybrid Format (Online + In person)
+              </span>
             </div>
           </div>
         </div>
