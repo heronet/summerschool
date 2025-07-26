@@ -223,7 +223,7 @@ export default function OverviewContent() {
               </li>
               <li className="flex items-start">
                 <span className="text-indigo-500 mr-2">•</span>
-                Porgramming experience, motivation, and how they may benefit
+                Programming experience, motivation, and how they may benefit
               </li>
             </ul>
           </div>
@@ -237,7 +237,7 @@ export default function OverviewContent() {
         </h3>
         <p className="text-gray-700">
           Participants will be selected based on{" "}
-          <strong>Porgramming experience</strong>, <strong>motivation</strong>,
+          <strong>Programming experience</strong>, <strong>motivation</strong>,
           and how they may <strong>benefit from the summer school</strong>. We
           encourage applications from all motivated students who are passionate
           about pursuing research in astronomy and astrophysics.

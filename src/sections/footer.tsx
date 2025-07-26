@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="font-semibold mb-3">Duration</h3>
-            <p className="text-gray-300">September 1-14, 2025</p>
+            <p className="text-gray-300">September 3-14, 2025</p>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">

@@ -52,7 +52,9 @@ export const RegistrationContent = () => (
             <li>• Basic familiarity with programming (preferably Python)</li>
             <li>• Must bring own laptop with working internet browser</li>
             <li>• Ready for coding-based hands-on sessions</li>
-            <li>• Academic merit and motivation for astronomy research</li>
+            <li>
+              • Programming experience, motivation, and how they may benefit
+            </li>
           </ul>
         </div>
 
