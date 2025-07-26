@@ -26,12 +26,11 @@ const SessionsContent = () => (
             title: "The Largest Structures in the Universe",
             overview:
               "What are the largest structures in the Universe? Why are they interesting to study and understand? What are they made of? In this lecture, we will explore these questions and learn how astronomers study some of the most interesting features of these systems.",
-            exercise:
-              "Prepare stellar mass functions for cluster and field environments, split them into star-forming and quiescent galaxies, compare the differences and make a report.",
+            exercise: "",
           },
           {
             speaker: "Dr. Tabassum Shahriar Tanvir",
-            title: "Star formation and evolution",
+            title: "Star formation",
             overview: "TBA",
           },
           {

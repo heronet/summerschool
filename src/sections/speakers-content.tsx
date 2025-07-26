@@ -71,18 +71,20 @@ const SpeakersContent = () => (
           {[
             {
               name: "K M Shariat Ullah",
-              affiliation: "Undergraduate student, SUST, Bangladesh",
+              affiliation:
+                "Undergraduate student, Dept. of EEE, SUST, Bangladesh",
               role: "Hands-on Instructor",
             },
             {
               name: "Ahmad Al-Imtiaz",
               affiliation:
-                "Lecturer, Daffodil International University, Bangladesh",
+                "Research Student, ICTP-PWF Bangladesh Collaboration",
               role: "Hands-on Instructor",
             },
             {
               name: "Tanmoy Bhowmik",
-              affiliation: "Undergraduate student, SUST, Bangladesh",
+              affiliation:
+                "Undergraduate student, Dept. of Physics, SUST, Bangladesh",
               role: "Hands-on Instructor",
             },
           ].map((instructor, index) => (
@@ -124,17 +126,18 @@ const SpeakersContent = () => (
             </h4>
             <ul className="space-y-1 text-sm text-gray-700">
               <li>
-                • Tanmoy Bhowmik (Undergraduate student, Dept. of Physics, SUST)
+                • Tanmoy Bhowmik, Undergraduate student, Dept. of Physics, SUST
               </li>
               <li>
-                • Ahmad Al-Imtiaz (Lecturer, Daffodil International University)
+                • Ahmad Al-Imtiaz, Research Student, ICTP-PWF Bangladesh
+                Collaboration
               </li>
               <li>
-                • K M Shariat Ullah (Undergraduate student, Dept. of EEE, SUST)
+                • K M Shariat Ullah, Undergraduate student, Dept. of EEE, SUST
               </li>
               <li>
-                • Akib Hasan Shihab (Undergraduate student, Dept. of Physics,
-                SUST)
+                • Akib Hasan Shihab, Undergraduate student, Dept. of Physics,
+                SUST
               </li>
             </ul>
           </div>
@@ -153,6 +156,24 @@ const SpeakersContent = () => (
               </li>
               <li>
                 • Mim Akter Maya (Undergraduate student, Dept. of Physics, SUST)
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-800 mb-2">
+              Program Coordinator
+            </h4>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>
+                • Tanmoy Bhowmik, Undergraduate student, Dept. of Physics, SUST
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-800 mb-2">IT Coordinator</h4>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>
+                • Siratul Islam, Undergraduate student, Dept. of Physics, SUST
               </li>
             </ul>
           </div>

@@ -5,7 +5,7 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
     <header
       className="bg-indigo-900 text-white shadow-lg sticky top-0"
       style={{
-        backgroundImage: "url('/images/header-bg.jpg')",
+        backgroundImage: "url('/images/header-bg.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -31,7 +31,8 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
               </h1>
               <p className="text-purple-100 mt-1 text-xs sm:text-sm lg:text-base">
                 <span className="hidden sm:inline">
-                  Shahjalal University of Science and Technology (SUST)
+                  Shahjalal University of Science and Technology (SUST),
+                  Bangladesh
                 </span>
               </p>
             </div>
@@ -40,7 +41,7 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
           <div className="hidden md:block text-right">
             <div className="flex items-center text-purple-100 mb-1">
               <Calendar className="w-4 h-4 mr-2" />
-              <span className="text-sm lg:text-base">September 1-14, 2025</span>
+              <span className="text-sm lg:text-base">September 3-14, 2025</span>
             </div>
             <div className="flex items-center text-purple-100">
               <Video className="w-4 h-4 mr-2" />

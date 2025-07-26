@@ -1,4 +1,4 @@
-import { Calendar, Mail, Settings } from "lucide-react";
+import { Calendar, ExternalLink, Mail, Settings } from "lucide-react";
 
 export const RegistrationContent = () => (
   <div className="space-y-6">
@@ -56,6 +56,17 @@ export const RegistrationContent = () => (
           </ul>
         </div>
 
+        <div className="flex items-center justify-center p-6 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-lg text-white">
+          <a
+            className="flex items-center space-x-2 text-lg font-semibold w-full h-full text-center justify-center"
+            href="https://forms.gle/FPaTnfjbHPWqxwvv5"
+            target="_blank"
+          >
+            <ExternalLink className="w-5 h-5" />
+            <span>Apply Now</span>
+          </a>
+        </div>
+
         <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
           <h3 className="font-semibold text-gray-800 mb-2">
             Selection Process
@@ -82,13 +93,6 @@ export const RegistrationContent = () => (
             <strong>Email:</strong> researchandproject.camsust@gmail.com
           </p>
         </div>
-
-        {/* <div className="flex items-center justify-center p-6 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-lg text-white">
-          <button className="flex items-center space-x-2 text-lg font-semibold">
-            <ExternalLink className="w-5 h-5" />
-            <span>Apply Now - Application Form</span>
-          </button>
-        </div> */}
 
         <div className="text-center text-sm text-gray-600 mt-4">
           <p>

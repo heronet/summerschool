@@ -36,10 +36,15 @@ export default function OverviewContent() {
           program for undergraduate students and early-career researchers from
           Bangladesh, organized by the Copernicus Astronomical Memorial of SUST
           (CAM-SUST). The program is a hybrid summer school scheduled for
-          September 3–14, 2025, designed for motivated undergraduate students in
+          September 3-14, 2025, designed for motivated undergraduate students in
           Physics, Astronomy, Engineering, and related fields from across
           Bangladesh.
         </p>
+      </div>
+
+      {/* Poster */}
+      <div>
+        <img src="/images/poster.webp" alt="poster" className="rounded-2xl" />
       </div>
 
       {/* Key Information Cards */}
@@ -49,7 +54,7 @@ export default function OverviewContent() {
             <Calendar className="w-6 h-6 text-purple-600 mr-3" />
             <h3 className="font-semibold text-gray-900">Duration</h3>
           </div>
-          <p className="text-gray-700">September 1-14, 2025</p>
+          <p className="text-gray-700">September 3-14, 2025</p>
           <p className="text-sm text-gray-600 mt-1">
             2 weeks intensive program
           </p>
@@ -106,7 +111,7 @@ export default function OverviewContent() {
                 <h4 className="font-semibold text-gray-900">
                   Week 1: Online Lectures
                 </h4>
-                <p className="text-sm text-gray-600">September 1-7, 2025</p>
+                <p className="text-sm text-gray-600">September 3-7, 2025</p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -130,7 +135,7 @@ export default function OverviewContent() {
                 <h4 className="font-semibold text-gray-900">
                   Week 2: Hands-on Training
                 </h4>
-                <p className="text-sm text-gray-600">September 10-14, 2025</p>
+                <p className="text-sm text-gray-600">September 11-14, 2025</p>
               </div>
             </div>
             <p className="text-gray-700">
@@ -217,7 +222,7 @@ export default function OverviewContent() {
               </li>
               <li className="flex items-start">
                 <span className="text-indigo-500 mr-2">•</span>
-                Strong academic merit and motivation
+                Porgramming experience, motivation, and how they may benefit
               </li>
             </ul>
           </div>
@@ -230,11 +235,11 @@ export default function OverviewContent() {
           Selection Process
         </h3>
         <p className="text-gray-700">
-          Participants will be selected based on <strong>academic merit</strong>
-          , <strong>motivation</strong>, and how they may{" "}
-          <strong>benefit from the summer school</strong>. We encourage
-          applications from all motivated students who are passionate about
-          pursuing research in astronomy and astrophysics.
+          Participants will be selected based on{" "}
+          <strong>Porgramming experience</strong>, <strong>motivation</strong>,
+          and how they may <strong>benefit from the summer school</strong>. We
+          encourage applications from all motivated students who are passionate
+          about pursuing research in astronomy and astrophysics.
         </p>
       </div>
     </div>

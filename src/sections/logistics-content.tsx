@@ -11,9 +11,9 @@ const LogisticsContent = () => (
         <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
           <h3 className="font-semibold text-gray-800 mb-2">Hybrid Format</h3>
           <ul className="space-y-1 text-gray-700">
-            <li>• First week (September 1–7): Online lecture sessions</li>
+            <li>• First week (September 3-7): Online lecture sessions</li>
             <li>
-              • Second week (September 10–14): In-person hands-on training
+              • Second week (September 11-14): In-person hands-on training
             </li>
             <li>• Group presentations: September 21, 2025</li>
             <li>• All times in GMT+6 (Bangladesh Standard Time)</li>
@@ -60,6 +60,14 @@ const LogisticsContent = () => (
               <h4 className="font-medium text-gray-800 mb-2">By Train</h4>
               <p className="text-sm text-gray-600">
                 Railway Station to university gate: ~250–300 BDT by CNG
+              </p>
+            </div>
+            <div className="p-3 bg-white rounded border">
+              <h4 className="font-medium text-gray-800 mb-2">By Air</h4>
+              <p className="text-sm text-gray-600">
+                Arrive at Osmani International Airport, Sylhet. CNGs
+                (auto-rickshaws) available. Fare to university gate: ~250–300
+                BDT (reserved)
               </p>
             </div>
           </div>

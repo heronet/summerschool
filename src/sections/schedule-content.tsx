@@ -370,15 +370,15 @@ export default function ScheduleContent() {
         <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
           <h3 className="font-semibold text-gray-900 mb-3 flex items-center">
             <Globe className="w-5 h-5 text-blue-600 mr-2" />
-            Week 1: Online Foundation
+            Week 1: Online Session
           </h3>
           <p className="text-gray-700 text-sm mb-3">
-            The first week (September 3–7) will primarily consist of online
+            The first week (September 3-7) will primarily consist of online
             lecture sessions. Sessions will be led by expert astronomers and
             researchers.
           </p>
           <div className="text-xs text-blue-700 bg-blue-100 px-2 py-1 rounded">
-            September 1-7, 2025 • Virtual Sessions
+            September 3-7, 2025 • Virtual Sessions
           </div>
         </div>
 
@@ -388,12 +388,12 @@ export default function ScheduleContent() {
             Week 2: Hands-On Practice
           </h3>
           <p className="text-gray-700 text-sm mb-3">
-            The second week (September 11–14) will feature in-person,
+            The second week (September 11-14) will feature in-person,
             lecture-based hands-on training sessions conducted by guest
             astronomers and researchers.
           </p>
           <div className="text-xs text-green-700 bg-green-100 px-2 py-1 rounded">
-            September 10-14, 2025 • SUST Campus, Sylhet
+            September 11-14, 2025 • SUST Campus, Sylhet
           </div>
         </div>
       </div>
