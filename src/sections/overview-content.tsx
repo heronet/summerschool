@@ -11,7 +11,6 @@ import {
   GraduationCap,
   Target,
 } from "lucide-react";
-import Image from "next/image";
 
 export default function OverviewContent() {
   const topics = [
@@ -45,7 +44,7 @@ export default function OverviewContent() {
 
       {/* Poster */}
       <div>
-        <Image src="/images/poster.webp" alt="poster" className="rounded-2xl" />
+        <img src="/images/poster.webp" alt="poster" className="rounded-2xl" />
       </div>
 
       {/* Key Information Cards */}
