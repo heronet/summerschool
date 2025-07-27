@@ -26,6 +26,13 @@ export const RegistrationContent = () => (
           </div>
           <div className="mt-3 p-3 bg-yellow-100 rounded border">
             <p className="text-sm text-gray-700">
+              <strong>
+                {" "}
+                Registration Fee: BDT 1000 (includes snacks and lunch;
+                applicable after primary selection)
+              </strong>
+            </p>
+            <p className="text-sm text-gray-700">
               <strong>Results:</strong> Successful applicants will be notified
               via email by <strong>12 August 2025</strong>
             </p>
