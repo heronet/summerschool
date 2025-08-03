@@ -30,8 +30,9 @@ const SessionsContent = () => (
           },
           {
             speaker: "Dr. Tabassum Shahriar Tanvir",
-            title: "Star formation",
-            overview: "TBA",
+            title: "A Physical Framework for Star Formation",
+            overview:
+              "Star formation unfolds in the cold (T≈10 K), dense (n>100 cm−3) interiors of molecular clouds when localized overdensities exceed the Jeans threshold and self-gravity overwhelms thermal and turbulent support. Supersonic turbulence drives a hierarchical cascade of density fluctuations, fragmenting the cloud into a spectrum of prestellar cores whose nearly isothermal contraction eventually gives way to adiabatic heating as opacity rises, thereby setting the characteristic mass scale. Throughout collapse, gas-phase cooling, dust continuum emission, and chemical processes regulate the thermal evolution, while emerging pro-tostars inject momentum and energy—via bipolar outflows, ionizing radiation, and radiative heating—into their natal envelopes, halting accretion and dispersing residual gas. By integrating analytic stability criteria, cutting-edge numerical simulations, and multiwavelength observational diagnostics, this work delivers a concise yet comprehensive overview of the competing mechanisms—gravity, pressure, turbulence, thermodynamics, and feedback—that govern the transformation of diffuse interstellar gas into shining stars.",
           },
           {
             speaker: "Ahmad Al-Imtiaz",

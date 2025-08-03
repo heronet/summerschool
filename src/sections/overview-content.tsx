@@ -242,6 +242,75 @@ export default function OverviewContent() {
           about pursuing research in astronomy and astrophysics.
         </p>
       </div>
+
+      {/* Committee */}
+      <div className="mt-8 p-6 bg-yellow-50 rounded-lg border border-yellow-200">
+        <h3 className="text-lg font-semibold text-gray-800 mb-3">
+          Organizing Committees
+        </h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-gray-800 mb-2">
+              SOC (Scientific Organizing Committee)
+            </h4>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>
+                • Tanmoy Bhowmik, Undergraduate student, Dept. of Physics, SUST
+              </li>
+              <li>
+                • Ahmad Al-Imtiaz, Research Student, ICTP-PWF Bangladesh
+                Collaboration
+              </li>
+              <li>
+                • K M Shariat Ullah, Undergraduate student, Dept. of EEE, SUST
+              </li>
+              <li>
+                • Akib Hasan Shihab, Undergraduate student, Dept. of Physics,
+                SUST
+              </li>
+              <li>
+                • Siratul Islam, Undergraduate student, Dept. of Physics, SUST
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-800 mb-2">
+              LOC (Local Organizing Committee)
+            </h4>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>
+                • Foysal Hasan Badhon (Undergraduate student, Dept. of Physics,
+                SUST)
+              </li>
+              <li>
+                • Shahidullah Kaisar Shamim (Undergraduate student, Dept. of
+                Physics, SUST)
+              </li>
+              <li>
+                • Mim Akter Maya (Undergraduate student, Dept. of Physics, SUST)
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-800 mb-2">
+              Program Coordinator
+            </h4>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>
+                • Tanmoy Bhowmik, Undergraduate student, Dept. of Physics, SUST
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-800 mb-2">IT Coordinator</h4>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>
+                • Siratul Islam, Undergraduate student, Dept. of Physics, SUST
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

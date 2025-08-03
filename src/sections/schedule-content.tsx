@@ -18,7 +18,7 @@ export default function ScheduleContent() {
       date: "03.09.2025",
       time: "6-9 PM (GMT+6)",
       speaker: "Dr. Tabassum Shahriar Tanvir",
-      title: "Star formation",
+      title: "A Physical Framework for Star Formation",
       mode: "Online",
       handsOn: false,
     },
