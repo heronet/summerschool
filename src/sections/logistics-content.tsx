@@ -1,8 +1,8 @@
 import { MapPin, MapPinIcon } from "lucide-react";
 
 const LogisticsContent = () => (
-  <div className="space-y-6">
-    <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+  <div className="space-y-8">
+    <div>
       <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
         <MapPin className="w-6 h-6 mr-2 text-red-600" />
         Event Logistics
@@ -33,7 +33,7 @@ const LogisticsContent = () => (
       </div>
     </div>
 
-    <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+    <div>
       <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
         <MapPinIcon className="w-6 h-6 mr-2 text-green-600" />
         Travel & Accommodation Information

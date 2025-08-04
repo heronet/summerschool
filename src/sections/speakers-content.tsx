@@ -60,82 +60,78 @@ const SpeakersContent = () => {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
-          <Users className="w-6 h-6 mr-2 text-purple-600" />
-          Distinguished Speakers & Instructors
-        </h2>
+      <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
+        <Users className="w-6 h-6 mr-2 text-purple-600" />
+        Distinguished Speakers & Instructors
+      </h2>
 
-        <div className="mb-8">
-          <h3 className="text-lg font-semibold text-gray-800 mb-4">
-            Speaker List
-          </h3>
-          <div className="grid md:grid-cols-1 gap-4">
-            {speakers.map((speaker, index) => (
-              <div
-                key={index}
-                className="flex items-start p-4 bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg border border-purple-200"
-              >
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-semibold mr-4 flex-shrink-0">
-                  {speaker.name
-                    .split(" ")
-                    .map((n) => n[0])
-                    .join("")
-                    .slice(0, 2)}
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800">
-                    {speaker.name}
-                  </h4>
-                  <p className="text-sm text-gray-600 mb-1">
-                    {speaker.affiliation}
-                  </p>
-                  <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                    {speaker.role}
-                  </span>
-                  <p className="text-gray-700 text-sm leading-relaxed my-3">
-                    {speaker.description}
-                  </p>
-                </div>
+      <div className="mb-8">
+        <h3 className="text-lg font-semibold text-gray-800 mb-4">
+          Speaker List
+        </h3>
+        <div className="grid md:grid-cols-1 gap-4">
+          {speakers.map((speaker, index) => (
+            <div
+              key={index}
+              className="flex items-start p-4 bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg border border-purple-200"
+            >
+              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-semibold mr-4 flex-shrink-0">
+                {speaker.name
+                  .split(" ")
+                  .map((n) => n[0])
+                  .join("")
+                  .slice(0, 2)}
               </div>
-            ))}
-          </div>
+              <div>
+                <h4 className="font-semibold text-gray-800">{speaker.name}</h4>
+                <p className="text-sm text-gray-600 mb-1">
+                  {speaker.affiliation}
+                </p>
+                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                  {speaker.role}
+                </span>
+                <p className="text-gray-700 text-sm leading-relaxed my-3">
+                  {speaker.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
+      </div>
 
-        <div>
-          <h3 className="text-lg font-semibold text-gray-800 mb-4">
-            Hands-on Instructor List
-          </h3>
-          <div className="grid md:grid-cols-1 gap-4">
-            {instructors.map((instructor, index) => (
-              <div
-                key={index}
-                className="flex items-start p-4 bg-gradient-to-r from-green-50 to-teal-50 rounded-lg border border-green-200"
-              >
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-semibold mr-4 flex-shrink-0">
-                  {instructor.name
-                    .split(" ")
-                    .map((n) => n[0])
-                    .join("")
-                    .slice(0, 2)}
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800">
-                    {instructor.name}
-                  </h4>
-                  <p className="text-sm text-gray-600 mb-1">
-                    {instructor.affiliation}
-                  </p>
-                  <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                    {instructor.role}
-                  </span>
-                  <p className="text-gray-700 text-sm leading-relaxed my-3">
-                    {instructor.description}
-                  </p>
-                </div>
+      <div>
+        <h3 className="text-lg font-semibold text-gray-800 mb-4">
+          Hands-on Instructor List
+        </h3>
+        <div className="grid md:grid-cols-1 gap-4">
+          {instructors.map((instructor, index) => (
+            <div
+              key={index}
+              className="flex items-start p-4 bg-gradient-to-r from-green-50 to-teal-50 rounded-lg border border-green-200"
+            >
+              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-semibold mr-4 flex-shrink-0">
+                {instructor.name
+                  .split(" ")
+                  .map((n) => n[0])
+                  .join("")
+                  .slice(0, 2)}
               </div>
-            ))}
-          </div>
+              <div>
+                <h4 className="font-semibold text-gray-800">
+                  {instructor.name}
+                </h4>
+                <p className="text-sm text-gray-600 mb-1">
+                  {instructor.affiliation}
+                </p>
+                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                  {instructor.role}
+                </span>
+                <p className="text-gray-700 text-sm leading-relaxed my-3">
+                  {instructor.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -9,6 +9,7 @@ import {
   MapPin,
   X,
   Video,
+  HelpCircle,
 } from "lucide-react";
 import LogisticsContent from "@/sections/logistics-content";
 import RegistrationContent from "@/sections/registration-content";
@@ -18,6 +19,7 @@ import SessionsContent from "@/sections/sessions-content";
 import SpeakersContent from "@/sections/speakers-content";
 import Footer from "@/sections/footer";
 import Header from "@/sections/header";
+import FAQContent from "@/sections/faq-content";
 
 interface NavItem {
   id: string;
@@ -48,6 +50,11 @@ const navigationItems: NavItem[] = [
     label: "Registration",
     icon: <Settings className="w-4 h-4" />,
   },
+  {
+    id: "faq",
+    label: "FAQ",
+    icon: <HelpCircle className="w-4 h-4" />,
+  },
 ];
 
 const contentMap = {
@@ -57,6 +64,7 @@ const contentMap = {
   speakers: <SpeakersContent />,
   logistics: <LogisticsContent />,
   registration: <RegistrationContent />,
+  faq: <FAQContent />,
 };
 
 export default function CAMSUSTSummerSchool() {
@@ -184,7 +192,7 @@ export default function CAMSUSTSummerSchool() {
 
           {/* Main Content */}
           <main className="flex-1 min-w-0">
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 min-h-[600px]">
+            <div className="bg-white rounded-lg shadow-sm border border-gray-200">
               <div className="p-4 sm:p-6 lg:p-8">
                 {contentMap[activeSection as keyof typeof contentMap]}
               </div>
