@@ -43,8 +43,9 @@ export default function OverviewContent() {
       </div>
 
       {/* Poster */}
-      <div>
+      <div className="space-y-8">
         <img src="/images/poster.webp" alt="poster" className="rounded-2xl" />
+        <img src="/images/wavier.webp" alt="poster" className="rounded-2xl" />
       </div>
 
       {/* Key Information Cards */}

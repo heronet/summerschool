@@ -26,6 +26,11 @@ const faqData: FAQItem[] = [
     answer:
       "You can participate only in the online phase if you want but in that case you won't receive certificate of accomplishment at the end of the summer school.",
   },
+  {
+    question: "Is financial aid available?",
+    answer:
+      "Yes, some selected participants who can highlight their motivation and relevant experiences through their applications are going to be considered for registration fee waivers. There is no need to apply for aid separately.",
+  },
 ];
 
 export default function FAQContent() {
