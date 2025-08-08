@@ -48,7 +48,7 @@ export default function ScheduleContent() {
       handsOn: true,
     },
     {
-      date: "12.09.2025",
+      date: "10.09.2025",
       time: "TBA",
       speaker: "K M Shariat Ullah",
       title: "Simulating the Early Universe using 21cmFAST",
@@ -56,7 +56,7 @@ export default function ScheduleContent() {
       handsOn: true,
     },
     {
-      date: "13.09.2025",
+      date: "12.09.2025",
       time: "TBA",
       speaker: "Ahmad Al-Imtiaz",
       title: "NIRSpec (JWST) Data Reduction",
@@ -64,7 +64,7 @@ export default function ScheduleContent() {
       handsOn: true,
     },
     {
-      date: "14.09.2025",
+      date: "10.09.2025",
       time: "TBA",
       speaker: "Tanmoy Bhowmik",
       title:

@@ -13,10 +13,6 @@ const faqData: FAQItem[] = [
       "This event is only meant for undergrad students but provided that seats are available after selection of undergrad students, high school students are going to be considered for this event.",
   },
   {
-    question: "Is financial aid available?",
-    answer: "Unfortunately we are not providing any sort of financial aid.",
-  },
-  {
     question: "Can only students from SUST apply?",
     answer: "No. Students from any institute in Bangladesh can apply.",
   },

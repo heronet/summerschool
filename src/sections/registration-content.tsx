@@ -20,13 +20,13 @@ export const RegistrationContent = () => (
           </div>
           <div className="p-3 bg-white rounded border">
             <h4 className="font-medium text-gray-800">Application Closes</h4>
-            <p className="text-red-600 font-semibold">06 August 2025</p>
+            <p className="text-red-600 font-semibold">12 August 2025</p>
           </div>
         </div>
         <div className="mt-3 p-3 bg-yellow-100 rounded border">
           <p className="text-sm text-gray-700">
             <strong>Results:</strong> Successful applicants will be notified via
-            email by <strong>12 August 2025</strong>
+            email by <strong>13 August 2025</strong>
           </p>
           <p className="text-sm text-gray-700">
             <strong>Registration Fee: BDT 1000</strong> (includes snacks and
