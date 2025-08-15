@@ -41,7 +41,7 @@ export default function Header({ onMenuToggle }: { onMenuToggle: () => void }) {
           <div className="hidden md:block text-right">
             <div className="flex items-center text-purple-100 mb-1">
               <Calendar className="w-4 h-4 mr-2" />
-              <span className="text-sm lg:text-base">September 3-14, 2025</span>
+              <span className="text-sm lg:text-base">September 3-12, 2025</span>
             </div>
             <div className="flex items-center text-purple-100">
               <Video className="w-4 h-4 mr-2" />
