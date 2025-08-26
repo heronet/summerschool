@@ -136,7 +136,7 @@ export default function OverviewContent() {
                 <h4 className="font-semibold text-gray-900">
                   Week 2: Hands-on Training
                 </h4>
-                <p className="text-sm text-gray-600">September 11-14, 2025</p>
+                <p className="text-sm text-gray-600">September 10-12, 2025</p>
               </div>
             </div>
             <p className="text-gray-700">

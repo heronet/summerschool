@@ -13,7 +13,7 @@ const LogisticsContent = () => (
           <ul className="space-y-1 text-gray-700">
             <li>• First week (September 3-7): Online lecture sessions</li>
             <li>
-              • Second week (September 11-14): In-person hands-on training
+              • Second week (September 10-12): In-person hands-on training
             </li>
             <li>• Group presentations: September 21, 2025</li>
             <li>• All times in GMT+6 (Bangladesh Standard Time)</li>

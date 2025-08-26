@@ -388,12 +388,12 @@ export default function ScheduleContent() {
             Week 2: Hands-On Practice
           </h3>
           <p className="text-gray-700 text-sm mb-3">
-            The second week (September 11-14) will feature in-person,
+            The second week (September 10-12) will feature in-person,
             lecture-based hands-on training sessions conducted by guest
             astronomers and researchers.
           </p>
           <div className="text-xs text-green-700 bg-green-100 px-2 py-1 rounded">
-            September 11-14, 2025 • SUST Campus, Sylhet
+            September 10-12, 2025 • SUST Campus, Sylhet
           </div>
         </div>
       </div>
