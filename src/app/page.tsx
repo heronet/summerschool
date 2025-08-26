@@ -179,7 +179,7 @@ export default function CAMSUSTSummerSchool() {
                 <div className="text-center space-y-2">
                   <div className="flex items-center justify-center text-gray-600 text-sm">
                     <Calendar className="w-4 h-4 mr-2" />
-                    <span>September 1-14, 2025</span>
+                    <span>September 3-12, 2025</span>
                   </div>
                   <div className="flex items-center justify-center text-gray-600 text-sm">
                     <Video className="w-4 h-4 mr-2" />

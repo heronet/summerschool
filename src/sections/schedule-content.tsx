@@ -267,7 +267,7 @@ export default function ScheduleContent() {
                   <Calendar className="w-4 h-4 text-purple-600 mr-2" />
                   <span className="font-semibold text-gray-900">Date</span>
                 </div>
-                <p className="text-gray-700">September 21, 2025</p>
+                <p className="text-gray-700">TBA</p>
               </div>
 
               <div className="bg-white p-4 rounded-lg border border-purple-200">
