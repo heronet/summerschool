@@ -15,7 +15,7 @@ const LogisticsContent = () => (
             <li>
               • Second week (September 10-12): In-person hands-on training
             </li>
-            <li>• Group presentations: September 21, 2025</li>
+            <li>• Group presentations: TBA</li>
             <li>• All times in GMT+6 (Bangladesh Standard Time)</li>
           </ul>
         </div>
