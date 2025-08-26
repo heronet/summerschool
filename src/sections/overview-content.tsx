@@ -36,7 +36,7 @@ export default function OverviewContent() {
           program for undergraduate students and early-career researchers from
           Bangladesh, organized by the Copernicus Astronomical Memorial of SUST
           (CAM-SUST). The program is a hybrid summer school scheduled for
-          September 3-14, 2025, designed for motivated undergraduate students in
+          September 3-12, 2025, designed for motivated undergraduate students in
           Physics, Astronomy, Engineering, and related fields from across
           Bangladesh.
         </p>
@@ -55,7 +55,7 @@ export default function OverviewContent() {
             <Calendar className="w-6 h-6 text-purple-600 mr-3" />
             <h3 className="font-semibold text-gray-900">Duration</h3>
           </div>
-          <p className="text-gray-700">September 3-14, 2025</p>
+          <p className="text-gray-700">September 3-12, 2025</p>
           <p className="text-sm text-gray-600 mt-1">
             2 weeks intensive program
           </p>

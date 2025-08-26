@@ -87,8 +87,8 @@ export default function ScheduleContent() {
   const getWeekLabel = (date: string) => {
     if (date === "TBA") return "TBA";
     const day = parseInt(date.split(".")[0]);
-    if (day >= 1 && day <= 7) return "Week 1";
-    if (day >= 10 && day <= 14) return "Week 2";
+    if (day >= 3 && day <= 7) return "Week 1";
+    if (day >= 10 && day <= 12) return "Week 2";
     if (day >= 21) return "Follow-up";
     return "";
   };
