@@ -73,7 +73,7 @@ export default function ScheduleContent() {
       handsOn: true,
     },
     {
-      date: "21.09.2025",
+      date: "TBA",
       time: "TBA",
       speaker: "Participants",
       title: "Group Presentation",
