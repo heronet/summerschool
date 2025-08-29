@@ -24,6 +24,29 @@ export default function OverviewContent() {
     "Type Ia Supernovae (SNe Ia) and their use in cosmology",
   ];
 
+  const soc = [
+    "Tanmoy Bhowmik, Undergraduate student, Dept. of Physics, SUST",
+    "K M Shariat Ullah, Undergraduate student, Dept. of EEE, SUST",
+    "Ahmad Al-Imtiaz, Research Student, ICTP-PWF Bangladesh Collaboration",
+    "Siratul Islam, Undergraduate student, Dept. of Physics, SUST",
+    "Supto Das, Undergraduate student, Dept. of CSE, SUST",
+    "Anik Das, Undergraduate student, Dept. of Physics, SUST",
+    "Shuhush Talukder, Undergraduate student, Dept. of Physics, SUST",
+    "Talha, Undergraduate student, Dept. of Physics, SUST",
+  ];
+
+  const loc = [
+    "Mim Akter, Undergraduate student, Dept. of Physics, SUST",
+    "Shahidullah Kaisar Shamim, Undergraduate student, Dept. of Physics, SUST",
+    "Foysal Hasan Badhon, Undergraduate student, Dept. of Physics, SUST",
+    "Meherazul Hasan, Undergraduate student, Dept. of Physics, SUST",
+    "Ariq Ahbab, Undergraduate student, Dept. of Physics, SUST",
+    "Galib S Razin, Undergraduate student, Dept. of EEE, SUST",
+    "Shariful Islam, Undergraduate student, Dept. of Physics, SUST",
+    "Shah Md. Maruf Ahmed, Undergraduate student, Dept. of Mathematics, SUST",
+    "Nabiha Tahsin, Undergraduate student, Dept. of EEE, SUST",
+  ];
+
   return (
     <div className="space-y-8">
       {/* Hero Section */}
@@ -254,24 +277,10 @@ export default function OverviewContent() {
             <h4 className="font-semibold text-gray-800 mb-2">
               SOC (Scientific Organizing Committee)
             </h4>
-            <ul className="space-y-1 text-sm text-gray-700">
-              <li>
-                • Tanmoy Bhowmik, Undergraduate student, Dept. of Physics, SUST
-              </li>
-              <li>
-                • Ahmad Al-Imtiaz, Research Student, ICTP-PWF Bangladesh
-                Collaboration
-              </li>
-              <li>
-                • K M Shariat Ullah, Undergraduate student, Dept. of EEE, SUST
-              </li>
-              <li>
-                • Akib Hasan Shihab, Undergraduate student, Dept. of Physics,
-                SUST
-              </li>
-              <li>
-                • Siratul Islam, Undergraduate student, Dept. of Physics, SUST
-              </li>
+            <ul className="space-y-2 text-sm text-gray-700">
+              {soc.map((member, idx) => (
+                <li key={idx}>• {member}</li>
+              ))}
             </ul>
           </div>
           <div>
@@ -279,17 +288,9 @@ export default function OverviewContent() {
               LOC (Local Organizing Committee)
             </h4>
             <ul className="space-y-1 text-sm text-gray-700">
-              <li>
-                • Foysal Hasan Badhon (Undergraduate student, Dept. of Physics,
-                SUST)
-              </li>
-              <li>
-                • Shahidullah Kaisar Shamim (Undergraduate student, Dept. of
-                Physics, SUST)
-              </li>
-              <li>
-                • Mim Akter Maya (Undergraduate student, Dept. of Physics, SUST)
-              </li>
+              {loc.map((member, idx) => (
+                <li key={idx}>• {member}</li>
+              ))}
             </ul>
           </div>
           <div>
