@@ -1,3 +1,5 @@
+import { Github } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white mt-16">
@@ -18,8 +20,21 @@ export default function Footer() {
             <p className="text-gray-300">September 3-12, 2025</p>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 CAM-SUST. All rights reserved.</p>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p className="text-gray-400">
+              &copy; 2025 CAM-SUST. All rights reserved.
+            </p>
+            <a
+              href="https://github.com/heronet/summerschool"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200"
+            >
+              <Github size={20} />
+              <span>GitHub</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
