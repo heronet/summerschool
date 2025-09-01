@@ -10,7 +10,7 @@ const faqData: FAQItem[] = [
   {
     question: "Can high school students join?",
     answer:
-      "This event is only meant for undergrad students but provided that seats are available after selection of undergrad students, high school students are going to be considered for this event.",
+      "This event is mainly intended for undergraduate and graduate students. However, outstanding high school and college students may also be considered.",
   },
   {
     question: "Can only students from SUST apply?",
@@ -20,12 +20,12 @@ const faqData: FAQItem[] = [
     question:
       "Can I participate only in the online phase of the summer school?",
     answer:
-      "You can participate only in the online phase if you want but in that case you won't receive certificate of accomplishment at the end of the summer school.",
+      "No. Participation in both the online and in-person phases of the summer school is required. The online lectures will also be uploaded to our YouTube channel a few weeks or months after the event concludes.",
   },
   {
     question: "Is financial aid available?",
     answer:
-      "Yes, some selected participants who can highlight their motivation and relevant experiences through their applications are going to be considered for registration fee waivers. There is no need to apply for aid separately.",
+      "Yes. Selected participants from outside Sylhet may receive registration fee waivers. There is no need to apply separately for financial aid.",
   },
 ];
 

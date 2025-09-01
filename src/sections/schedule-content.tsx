@@ -23,6 +23,14 @@ export default function ScheduleContent() {
       handsOn: false,
     },
     {
+      date: "04.09.2025",
+      time: "9-10 PM (GMT+6)",
+      speaker: "Tanmoy Bhowmik, K M Shariat Ullah, Ahmad Al-Imtiaz",
+      title: "Software Installations and Environment Setup",
+      mode: "Online",
+      handsOn: false,
+    },
+    {
       date: "05.09.2025",
       time: "7-9 PM (GMT+6)",
       speaker: "Dr. Syeda Lammim Ahad",
@@ -41,7 +49,7 @@ export default function ScheduleContent() {
     },
     {
       date: "10.09.2025",
-      time: "TBA",
+      time: "9:00 AM - 12:30 PM (GMT+6)",
       speaker: "K M Shariat Ullah",
       title: "Simulating the Early Universe using 21cmFAST",
       mode: "In-Person",
@@ -49,7 +57,7 @@ export default function ScheduleContent() {
     },
     {
       date: "10.09.2025",
-      time: "TBA",
+      time: "1:30 - 9:30 PM (GMT+6)",
       speaker: "Tanmoy Bhowmik",
       title:
         "Galaxy SED Fitting: From Photometric Data to Physical Parameter Modeling",
@@ -58,22 +66,30 @@ export default function ScheduleContent() {
     },
     {
       date: "11.09.2025",
-      time: "TBA",
-      speaker: "Dr. Syed Ashraf Uddin",
-      title: "Supernova Cosmology",
-      mode: "In-Person",
-      handsOn: true,
-    },
-    {
-      date: "12.09.2025",
-      time: "TBA",
+      time: "9:00 AM - 1:00 PM (GMT+6)",
       speaker: "Ahmad Al-Imtiaz",
       title: "NIRSpec (JWST) Data Reduction",
       mode: "In-Person",
       handsOn: true,
     },
     {
-      date: "TBA",
+      date: "11.09.2025",
+      time: "2:00 - 5:00 PM (GMT+6)",
+      speaker: "Ahmad Al-Imtiaz, Tanmoy Bhowmik",
+      title: "Stellar Mass Function in Galaxy Clusters",
+      mode: "In-Person",
+      handsOn: true,
+    },
+    {
+      date: "12.09.2025",
+      time: "10:00 AM - 1:00 PM (GMT+6)",
+      speaker: "Dr. Syed Ashraf Uddin",
+      title: "Supernova Cosmology",
+      mode: "In-Person",
+      handsOn: true,
+    },
+    {
+      date: "21.09.2025",
       time: "TBA",
       speaker: "Participants",
       title: "Group Presentation",
