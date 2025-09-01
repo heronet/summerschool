@@ -89,7 +89,15 @@ export default function ScheduleContent() {
       handsOn: true,
     },
     {
-      date: "21.09.2025",
+      date: "12.09.2025",
+      time: "2:30 AM - 4:00 PM (GMT+6)",
+      speaker: "--",
+      title: "Closing Ceremony",
+      mode: "In-Person",
+      handsOn: true,
+    },
+    {
+      date: "11.10.2025",
       time: "TBA",
       speaker: "Participants",
       title: "Group Presentation",
@@ -283,7 +291,7 @@ export default function ScheduleContent() {
                   <Calendar className="w-4 h-4 text-purple-600 mr-2" />
                   <span className="font-semibold text-gray-900">Date</span>
                 </div>
-                <p className="text-gray-700">TBA</p>
+                <p className="text-gray-700">11.10.2025</p>
               </div>
 
               <div className="bg-white p-4 rounded-lg border border-purple-200">
@@ -291,7 +299,7 @@ export default function ScheduleContent() {
                   <Clock className="w-4 h-4 text-purple-600 mr-2" />
                   <span className="font-semibold text-gray-900">Time</span>
                 </div>
-                <p className="text-gray-700">TBA</p>
+                <p className="text-gray-700">8 PM</p>
               </div>
 
               <div className="bg-white p-4 rounded-lg border border-purple-200">
