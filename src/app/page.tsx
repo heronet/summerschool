@@ -10,6 +10,7 @@ import {
   X,
   Video,
   HelpCircle,
+  UserCheck,
 } from "lucide-react";
 import LogisticsContent from "@/sections/logistics-content";
 import RegistrationContent from "@/sections/registration-content";
@@ -20,6 +21,7 @@ import SpeakersContent from "@/sections/speakers-content";
 import Footer from "@/sections/footer";
 import Header from "@/sections/header";
 import FAQContent from "@/sections/faq-content";
+import ParticipantsContent from "@/sections/participants-content";
 
 interface NavItem {
   id: string;
@@ -55,6 +57,11 @@ const navigationItems: NavItem[] = [
     label: "FAQ",
     icon: <HelpCircle className="w-4 h-4" />,
   },
+  {
+    id: "participants",
+    label: "Participants",
+    icon: <UserCheck className="w-4 h-4" />,
+  },
 ];
 
 const contentMap = {
@@ -65,6 +72,7 @@ const contentMap = {
   logistics: <LogisticsContent />,
   registration: <RegistrationContent />,
   faq: <FAQContent />,
+  participants: <ParticipantsContent />,
 };
 
 export default function CAMSUSTSummerSchool() {
